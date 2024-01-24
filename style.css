@@ -1,0 +1,63 @@
+/* Estilos para la sección */
+section {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+/* Estilos para los formularios */
+.formulario-iniciosesion, .formulario-crearcuenta {
+  padding: 30px;
+  text-align: center;
+}
+
+.formulario-iniciosesion h1, .formulario-crearcuenta h1 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.formulario-iniciosesion a, .formulario-crearcuenta a {
+  display: block;
+  margin-top: 20px;
+  font-size: 16px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+/* Estilos para el formulario */
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para los campos de entrada */
+input[type=email], input[type=password] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Estilos para el botón de envío */
+input[type=submit] {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Estilos para el botón de envío al pasar el ratón por encima */
+input[type=submit]:hover {
+  background-color: #0056b3;
+}
